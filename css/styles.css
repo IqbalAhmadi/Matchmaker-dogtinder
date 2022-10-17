@@ -12,6 +12,7 @@
   }
 
   /* Headings */
+
   .big-heading {
     font-family: 'Gluten', cursive;
     font-size: 3.5rem;
@@ -26,8 +27,20 @@
   }
 
   /* Containers */
+
   .container-fluid {
     padding: 7% 15%;
+  }
+
+  /* Sections */
+
+  .colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+  }
+
+  .white-section {
+    background-color: #fff;
   }
 
   /* Navigation Bar */
@@ -57,14 +70,10 @@
   }
 
   /* Title section  */
-  #title {
-    background-color: #ff4c68;
-    color: #fff;
-    text-align: left;
-  }
 
   #title .container-fluid {
-    padding: 3% 15% 7%;
+    padding: 3% 15%;
+    text-align: left;
   }
 
   .title-image {
@@ -75,8 +84,8 @@
   }
 
   /* Feature section */
+
   #features {
-    background-color: #fff;
     position: relative;
   }
 
@@ -111,17 +120,17 @@
 
   #testimonials {
     background-color: #ef8172;
-    color: #fff;
   }
 
   .testimonial-image {
     width: 10%;
     border-radius: 100%;
     margin: 20px;
-  } 
+  }
 
 
   /* press section */
+
   #press {
     background-color: #ef8172;
     padding-bottom: 3%;
@@ -135,23 +144,18 @@
 
 
   /* Pricing section */
+
   #pricing {
     padding: 100px;
   }
 
   .price-text {
-    font-size: 3rem;
+    font-size: 2rem;
     line-height: 1.5;
   }
 
   .pricing-column {
     padding: 3% 2%;
-  }
-
-  /* Call to Action section */
-  #cta {
-    background-color: #ff4c68;
-    color: #fff;
   }
 
   /* Footer section */
